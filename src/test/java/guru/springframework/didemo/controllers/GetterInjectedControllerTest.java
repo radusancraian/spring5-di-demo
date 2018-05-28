@@ -9,20 +9,20 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by Radu on 5/28/2018.
  */
-public class SetterInjectedControllerTest {
+public class GetterInjectedControllerTest {
 
-    private SetterInjectedController setterInjectedController;
+    private GetterInjectedController getterInjectedController;
 
     @Before
     public void setUp() throws Exception {
 
-        setterInjectedController = new SetterInjectedController();
-        setterInjectedController.setGreetingService(new GreetingServiceImpl());
+        getterInjectedController = new GetterInjectedController();
+        getterInjectedController.setGreetingService(new GreetingServiceImpl());
     }
 
     @Test
     public void testGreeting() throws Exception {
-        assertEquals(GreetingServiceImpl.HELLO_GURUS, setterInjectedController.sayHello());
+        assertEquals(GreetingServiceImpl.HELLO_GURUS, getterInjectedController.sayHello());
     }
 
 }
