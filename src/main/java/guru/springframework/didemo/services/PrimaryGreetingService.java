@@ -3,16 +3,12 @@ package guru.springframework.didemo.services;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by Radu on 5/28/2018.
- */
 @Service
-public class GreetingServiceImpl implements GreetingService {
-
-    public static final String HELLO_GURUS = "Hello Gurus!!!";
+@Primary
+public class PrimaryGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
-        return HELLO_GURUS;
+        return "Hello - Primary Greeting service";
     }
 }
