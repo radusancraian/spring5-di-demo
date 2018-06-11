@@ -1,9 +1,9 @@
-package guru.springframework.didemo;
+package guru.springframework;
 
-import guru.springframework.didemo.controllers.ContructorInjectedController;
-import guru.springframework.didemo.controllers.MyController;
-import guru.springframework.didemo.controllers.PropertyInjectedController;
-import guru.springframework.didemo.controllers.GetterInjectedController;
+import guru.springframework.controllers.ContructorInjectedController;
+import guru.springframework.controllers.MyController;
+import guru.springframework.controllers.PropertyInjectedController;
+import guru.springframework.controllers.GetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
