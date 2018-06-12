@@ -1,0 +1,35 @@
+#comment
+name: Radu
+
+names:
+    - Radu
+    - Paul
+    - Andrei
+pound_sign: "#"
+
+
+book:
+    author: Joe Buck
+    publisher: random house
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_string: "my course"
+
+include_new_lines:  |
+dsadsadsadsad
+dsadsa dsadas
+dsadsa
+dsadsad
+ignore_new_lines: >
+this is
+just one long
+line
